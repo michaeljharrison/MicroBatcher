@@ -119,7 +119,7 @@ For more examples I suggest looking at the `microbatcher_test` file which contai
 
 All tests will be run automatically on commit in Github Actions.
 
-All unit tests can be found in (`microbatcher_test.go`)[./microbatcher_test.go]. And cover the core functionality of the API, keep in mind these tests use a dummy `BatchProcessor` and only cover the functionality of the batching and flushing itself.
+All unit tests can be found in [`microbatcher_test.go`](./microbatcher_test.go). And cover the core functionality of the API, keep in mind these tests use a dummy `BatchProcessor` and only cover the functionality of the batching and flushing itself.
 
 There are minor logs included using [Zap](https://github.com/uber-go/zap) and are all set to Debug level.
 
